@@ -1,0 +1,24 @@
+{
+    "name": "metabor/heuristic",
+    "description": "Meta-Heuristic library for optimization problems",
+    "keywords": ["meta-heuristic", "heuristic", "optimization"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oliver Tischlinger",
+            "email": "oliver.tischlinger@metabor.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-0": {
+			"Metabor\\": "src/"
+        }
+    },
+    "prefer-stable":true,
+    "minimum-stability":"dev"
+}
